@@ -116,6 +116,7 @@ Parameters:
     Description: The name tag of the Security Gateway instances. (optional)
     Type: String
     Default: Check-Point-Gateway
+    MaxLength: 100
   GatewayInstanceType:
     Description: The instance type of the Secutiry Gateways.
     Type: String
